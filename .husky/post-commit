@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo ' Commit completed successfully!'
+echo 'Commit completed successfully!'
