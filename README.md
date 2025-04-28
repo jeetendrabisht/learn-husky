@@ -47,13 +47,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## 🐶 Git Hooks with Husky for React + TypeScript
 
----
-
 This project uses **Husky** to manage Git hooks and maintain code quality in a React + TypeScript setup.
 
 ### ⚙️ Git Hooks Overview
-
----
 
 | Hook         | Purpose                                     | Example Tool            |
 | ------------ | ------------------------------------------- | ----------------------- |
