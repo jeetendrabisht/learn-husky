@@ -21,7 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:all": "CI=true react-scripts test --watchAll",
+    "test:all": "cross-env CI=true react-scripts test --watchAll",
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
@@ -50,6 +50,7 @@
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
     "commitlint": "^19.8.0",
+    "cross-env": "^7.0.3",
     "husky": "^8.0.0",
     "lint-staged": "^15.5.1",
     "prettier": "^3.5.3"
