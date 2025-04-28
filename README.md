@@ -44,3 +44,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## 🐶 Git Hooks with Husky for React + TypeScript
+
+This project uses **Husky** to manage Git hooks and maintain code quality in a React + TypeScript setup.
+
+### ⚙️ Git Hooks Overview
+
+| Hook         | Purpose                                     | Example Tool            |
+| ------------ | ------------------------------------------- | ----------------------- |
+| `pre-commit` | Run checks before a commit is saved         | Lint (ESLint), Prettier |
+| `commit-msg` | Ensure commit messages follow a convention  | Commitlint              |
+| `pre-push`   | Run tests or build before pushing to remote | Jest, Build Script      |
