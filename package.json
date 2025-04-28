@@ -21,7 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:all": "react-scripts test --watchAll",
+    "test:all": "CI=true react-scripts test --watchAll",
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "lint": "eslint 'src/**/*.{ts,tsx}'",
